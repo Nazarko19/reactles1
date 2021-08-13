@@ -1,9 +1,7 @@
-export default function User({item:useritem}) {
+export default function User({item}) {
   return (
     <div>
-      {useritem.id} {useritem.name}
-
-
+      {item.id} {item.name}
     </div>
   );
 }
